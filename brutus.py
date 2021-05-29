@@ -142,12 +142,12 @@ def process_balance(dataset,balance):
                    "private key: " + str(privatekey) + "\n" +
                    "WIF private key: " + str(WIF) + "\n" +
                    "public key: " + str(publickey).upper() + "\n" +
-                   "balance: " + str(balance) + "\n" +
-                   "Donate to the author of thoriginal program Plutus: 1B1k2fMs6kEmpxdYor6qvd2MRVUX2zGEHa\n\n" + "\n" +
-				   "Donate to the author of this program:" + "\n" +
-				   "Bitcoin: 12g88eRApxeSs4xiNFWMmvMEiWa36BMvSz" + "\n" +
-                   "Digibyte: DRirtCB5UN8mxAG1EL64vJPxJ6nTJJbrKj")
-        file.close()
+                   "balance: " + str(balance))
+                  
+				
+				  
+
+    file.close()
         sys.exit(0)
     return None
 
